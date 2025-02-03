@@ -1,0 +1,63 @@
+/* Basic Reset */
+html, body {
+    height: 100%;
+    margin: 0;
+    background-color: #fd8989; 
+    color: #333; 
+    font-family: 'Arial', sans-serif; 
+}
+
+/* Canvas Styles */
+canvas {
+    border: none; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+    border-radius: 8px; 
+    display: block;
+    margin: 20px auto; 
+}
+
+/* Titles and Text Elements */
+.Game-Title, .Game-Controls-Title, .Game-Description-Title {
+    text-align: center;
+    font-size: 2rem; /* Unified font size */
+    background-color: #b30000; 
+    color: rgb(255, 255, 255);
+    padding: 15px 0;
+    border-radius: 10px; 
+    margin-top: 20px; 
+}
+
+.Game-Controls-Text, .Game-Description-Text {
+    background-color: #fd8989;
+    color: #ffffff; /* Consistency in text color */
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px; 
+}
+
+p {
+    margin: 10px 20px; 
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #b30000; 
+    border-radius: 10px;
+    margin-top: auto; 
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .Game-Title, .Game-Controls-Title, .Game-Description-Title {
+        font-size: 1.5rem; 
+    }
+    p, .Game-Controls-Text, .Game-Description-Text {
+        margin: 10px; 
+    }
+}
